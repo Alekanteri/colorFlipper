@@ -18,3 +18,5 @@ If you click on the selected text, then the color code will be added to the clip
 Makes assembly of files without minification
 
 ### `yarn build`
+
+Makes assembly of files with minification
