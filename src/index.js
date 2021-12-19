@@ -37,8 +37,7 @@ btn.addEventListener("click", () => {
   } else if (hex.className === "active") {
     function rgbToHex(red, green, blue) {
       return (
-        "#" +
-        ((1 << 24) + (red << 16) + (green << 8) + blue).toString(16).slice(1)
+        `#${((1 << 24) + (red << 16) + (green << 8) + blue).toString(16).slice(1)}`
       );
     }
 
